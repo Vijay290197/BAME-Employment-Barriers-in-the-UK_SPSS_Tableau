@@ -1,0 +1,27 @@
+﻿* Encoding: UTF-8.
+DATE Y 2004.  
+The following new variables are being created:  
+  Name        Label  
+  YEAR_       YEAR, not periodic 
+  DATE_       Date.  Format:  "YYYY" 
+
+* PREDICT THRU END
+
+* Time Series Modeler.
+
+PREDICT THRU YEAR 2022. 
+* Time Series Modeler. 
+TSMODEL 
+   /MODELSUMMARY  PRINT=[MODELFIT] 
+   /MODELSTATISTICS  DISPLAY=YES MODELFIT=[ SRSQUARE] 
+   /MODELDETAILS  PRINT=[ FORECASTS] 
+   /SERIESPLOT OBSERVED FORECAST 
+   /OUTPUTFILTER DISPLAY=ALLMODELS 
+   /SAVE  PREDICTED(Predicted) 
+   /AUXILIARY  CILEVEL=95 MAXACFLAGS=24 
+   /MISSING USERMISSING=EXCLUDE 
+   /MODEL DEPENDENT=UK_White UK_BAME UK_MixedEthnicGroup UK_Indian UK_Pk_Ban UK_Black 
+    UK_OtherEthnicGrp 
+      PREFIX='Model' 
+   /EXPERTMODELER TYPE=[ARIMA EXSMOOTH] 
+   /AUTOOUTLIER  DETECT=OFF.
