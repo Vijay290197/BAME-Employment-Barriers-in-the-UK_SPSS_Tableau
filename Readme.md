@@ -1,14 +1,9 @@
 # Project Description
 
-### Race is one of the protected characteristics in the Equality Act (2010)
-### and with Black Lives Matter protests dominating headlines,
-### addressing issues around race, ethnicity and culture in the UK has become a necessity for the government.
+### Race is one of the protected characteristics in the Equality Act (2010)### and with Black Lives Matter protests dominating headlines, addressing issues around race, ethnicity and culture in the UK has become a necessity for the government. These issues are aligned to the structures of the British society, which continue to disadvantage Black, Asian and Minority Ethnic (BAME).
 
-### These issues are aligned to the structures of the British society,
-### which continue to disadvantage Black, Asian and Minority Ethnic (BAME).
+### Learning Outcomes
 
-
-# Learning Outcomes
 On successful completion of this project, you will be able to:
 	• Critically evaluate ethical and methodological considerations associated with applied secondary research, 
 	  considering the implications for strategic leadership and organisational development.
